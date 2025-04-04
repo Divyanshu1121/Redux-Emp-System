@@ -1,0 +1,126 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0f7fa, #ede7f6);
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a237e;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+form,
+table {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 25px;
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #bdbdbd;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #039be5;
+  box-shadow: 0 0 5px rgba(3, 155, 229, 0.3);
+}
+
+input[type="submit"],
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #3949ab;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #1e88e5;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #00897b;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004d40;
+}
+
+table {
+  width: 95%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table td,
+table th {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #26a69a;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+button svg {
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+button:first-child {
+  background-color: #e53935;
+}
+
+button:first-child:hover {
+  background-color: #c62828;
+}
+
+button:last-child {
+  background-color: #43a047;
+}
+
+button:last-child:hover {
+  background-color: #2e7d32;
+}
